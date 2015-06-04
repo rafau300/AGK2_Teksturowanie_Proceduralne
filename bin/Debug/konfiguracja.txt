@@ -1,0 +1,16 @@
+#Plik konfiguracyjny s³u¿¹cy do ustawiania opcji dotycz¹cych tekstur
+#
+#U¿ycie: opcja,WARTOSC
+#Dostêpne opcje: jakosc,liczba_tekstur
+#
+#Mo¿liwe wartoœci jakoœci:
+#NISKA_JAKOSC_TEKSTUR
+#SREDNIA_JAKOSC_TEKSTUR
+#WYSOKA_JAKOSC_TEKSTUR
+#
+#Uwaga! Przy wysokiej jakoœci tekstur czas ³adowania mo¿e byæ bardzo d³ugi
+#w przypadku niektórych kombinacji typów tekstur i modyfikacji
+#Zbyt du¿a liczba tekstur w wysokiej rozdzielczoœci mo¿e spowodowaæ
+#b³¹d bad_alloc gdy program zu¿yje zbyt du¿¹ iloœæ pamiêci
+jakosc,SREDNIA_JAKOSC_TEKSTUR
+liczba_tekstur,10

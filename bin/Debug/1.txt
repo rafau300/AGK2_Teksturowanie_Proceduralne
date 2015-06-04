@@ -1,0 +1,32 @@
+#Projekt z przedmiotu: Algorytmy grafiki komputerowej
+#Plik konfiguracyjny numer 1
+#
+#U¿ycie:
+#wszystkie parametry s¹ rozdzielone przecinkami, wartosc 0 oznacza
+#brak danego parametru lub zerow¹ wartoœæ danej sk³adowej koloru
+#
+#Parametry:
+#TYP,MODYFIKACJA,R,G,B,R2,G2,B2,POWTORZENIA
+#
+#znak '#' oznacza komentarz i taka linia jest ignorowana
+#
+#Lista typów tekstur i modyfikacji:
+#TYP_TEKSTURY_JEDEN_KOLOR
+#TYP_TEKSTURY_GRADIENT
+#TYP_TEKSTURY_SZUM
+#TYP_TEKSTURY_SZUM_PERLINA
+#TYP_TEKSTURY_SZACHOWNICA
+#MOD_BLUR
+#MOD_WYOSTRZANIE
+#MOD_NEGACJA
+#MOD_FILTR_MEDIANOWY
+#MOD_SZUM_SOL_PIEPRZ
+#
+#W przypadku nieu¿ywania np. modyfikacji nalezy wpisac "NULL"
+#
+#Mieszanie tekstur: MIESZANIE,[id],[id]
+#
+TYP_TEKSTURY_SZACHOWNICA,MOD_SZUM_SOL_PIEPRZ,255,0,0,0,255,0,8
+TYP_TEKSTURY_GRADIENT,MOD_BLUR,0,255,255,128,0,127,8
+MIESZANIE,0,1
+TYP_TEKSTURY_SZUM,NULL,64,64,64,240,240,240,NULL
